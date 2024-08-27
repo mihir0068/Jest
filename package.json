@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.105",
     "@types/react": "^18.3.4",
@@ -39,5 +38,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/user-event": "^14.5.2",
+    "fetch-mock": "^11.1.1",
+    "jest-fetch-mock": "^3.0.3",
+    "msw": "^2.3.5",
+    "ts-jest": "^29.2.5",
+    "util": "^0.12.5"
   }
 }
